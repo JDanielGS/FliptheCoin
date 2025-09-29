@@ -6,8 +6,8 @@ function cambiarImagen() {
     document.getElementById('text_result').textContent = result
 
     if (result === "Heads") {
-        img.src = "resources/heads.svg"
+        img.src = "src/resources/heads.svg"
     }else{
-        img.src = "resources/tails.svg"
+        img.src = "src/resources/tails.svg"
     }
 }
